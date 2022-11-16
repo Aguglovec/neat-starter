@@ -1,4 +1,10 @@
 ---
+title: test
+description: тестовый пост1
+author: А
+date: 2022-11-01T12:10:53.590Z
+tags:
+  - created
 component: hero-graphic
 hero: graphic # options: carousel, graphic, video, split (text & image)
 heroSettings:

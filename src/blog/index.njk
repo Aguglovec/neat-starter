@@ -1,0 +1,17 @@
+---
+layout: blog
+---
+
+<section class="mt-15">
+
+    {%- for post in collections.post -%}
+
+    {% if post.data.component %}
+     
+     {% set component = ['components/', post.data.component, '.njk'] %}
+     {% include component | join %}
+   {% endif %}
+
+
+{%- endfor -%}
+</section>
